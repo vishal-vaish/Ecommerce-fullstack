@@ -1,5 +1,4 @@
 import {Link, useNavigate} from "react-router-dom";
-import Logo from "./Logo";
 import {useContext, useState} from "react";
 import {GrSearch} from "react-icons/gr";
 import {FaRegCircleUser} from "react-icons/fa6";
@@ -52,8 +51,8 @@ const Header = () => {
     <header className="h-16 shadow-md bg-white fixed w-full z-40">
       <div className="h-full container mx-auto flex items-center px-4 justify-between">
         <div>
-          <Link to={"/"}>
-            <Logo w={90} h={50}/>
+          <Link to={"/"} className="w-full size-3 text-xl">
+            E-Mart
           </Link>
         </div>
 
