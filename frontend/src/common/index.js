@@ -1,4 +1,4 @@
-const backendDomin = "http://localhost:8080"
+const backendDomin = "https://ecommerce-fullstack-ultl.vercel.app/"
 
 const SummaryApi = {
   signUp: {
