@@ -22,4 +22,8 @@ connectDB().then(() => {
     console.log("Connect to DB")
     console.log(`Server is running on PORT: ${PORT}`);
   })
-})
+});
+
+app.use("/",(req,res) => {
+  res.send("Server is running");
+});
